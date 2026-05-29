@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "لباس بچه گانه",
+      "price": 150000,
+      "discount": 20,
+      "1image": "/API/1.webp",
+      "0image": "/API/2.webp",
+      "category": "kid",
+      "brand": "banimode",
+      "description": "لباس نخی با کیفیت عالی و مناسب استفاده روزمره"
+    },
+    {
+      "id": 2,
+      "title": "شلوار زنانه",
+      "price": 3800000,
+      "discount": 35,
+      "1image": "/API/3.webp",
+      "0image": "/API/4.webp",
+      "category": "women",
+      "brand": "banimode",
+      "description": "شلوار جین زنانه با دوخت عالی و تن‌خور جذاب"
+    },
+    {
+      "id": 3,
+      "title": "کفش اسپرت مردانه",
+      "price": 1722500,
+      "discount": 15,
+      "1image": "/API/5.webp",
+      "0image": "/API/6.webp",
+      "category": "men/women",
+      "brand": "sporty",
+      "description": "کفش اسپرت مناسب پیاده‌روی و استفاده روزانه"
+    },
+    {
+      "id": 4,
+      "title": "تیشرت اسپرت مردانه",
+      "price": 1200000,
+      "discount": 15,
+      "1image": "/API/7.webp",
+      "0image": "/API/8.webp",
+      "category": "men",
+      "brand": "sporty",
+      "description": "اسپرت مناسب استفاده روزانه"
+    },
+    {
+      "id": 5,
+      "title": "شلوار زنانه",
+      "price": 1200000,
+      "discount": 15,
+      "1image": "/API/9.webp",
+      "0image": "/API/10.webp",
+      "category": "men",
+      "brand": "sporty",
+      "description": "شواری با جنس عالی"
+    },
+    {
+      "id": 6,
+      "title": "بلوز زنانه",
+      "price": 1200000,
+      "discount": 15,
+      "1image": "/API/11.webp",
+      "0image": "/API/12.webp",
+      "category": "women",
+      "brand": "sporty",
+      "description": "بلوز با استین بلند"
+    },
+    {
+      "id": 7,
+      "title": "لباس اسپرت زنانه",
+      "price": 1200000,
+      "discount": 15,
+      "1image": "/API/13.webp",
+      "0image": "/API/14.webp",
+      "category": "men",
+      "brand": "sporty",
+      "description": "لباس ورزش زنانه"
+    }
+  ]
+}

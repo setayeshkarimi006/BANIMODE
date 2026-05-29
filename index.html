@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/picture/favicon/logo512.png" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>BANIMODE/sk</title>
+  </head>
+  <body id="app">
+    <header>
+      <div id="imageBox" class="relative ">
+        <img id="closeIcon" class="w-6 h-6 absolute top-5 left-5 cursor-pointer z-10"src="./src/picture/svg/close-svgrepo-com (6).svg"alt=""/>
+        <img id="mainImage"class="max-w-8xl h-16 rounded-3xl p-3"src="./src/picture/favicon/movie/1771233907.gif"alt=""/>
+      </div>
+      <!--                     گیف بالایی                   -->
+      <div>
+        <div>
+          <div class="flex items-center justify-end gap-3">
+            <img 
+            class="mr-110 hidden md:block"
+            src="./src/picture/svg/banimode-logo.svg"alt=""/>
+            <div class="w-480 max-w-sm flex items-center bg-gray-200 rounded-2xl px-3 py-2 mr-36 ">
+            <img 
+            src="./src/picture/svg/logo2.png" alt="" 
+            class="block md:hidden">
+              <input 
+              type="text"
+              placeholder="جستجو میان هزاران برندوصد ها هزار کالا"
+              class="flex-1 w-32 bg-transparent outline-none pl-3 text-sm mr-2"/>
+              <img src="./src/picture/svg/search-seconde.svg"class="w-6 h-6 opacity-100"alt=""/>
+            </div>
+<!--دکمه ورود-->
+<a href="index3.html"
+   class="bg-gradient-to-l from-green-400 to-green-900 text-white rounded-3xl w-30 h-12 hidden md:flex items-center justify-center">
+  ورود / ثبت نام
+</a>
+            <!--خرید-->
+            <a href="index2.html">
+              <div class="hidden md:block">
+                <img id="basketBtn"class="w-18 p-2"src="./src/picture/svg/basket-svgrepo-com (5).svg"alt=""/>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- ردیف سوم هدر -->
+        <div class="happy hidden md:block">
+          <nav class="w-full bg-white mt-4">
+            <ul class="flex items-center gap-8 mr-4 text-black font-medium justify-end">
+              <!-- آیتم‌های دیگر -->
+              <li>شگفت‌انگیز</li>
+              <li>مد روز</li>
+              <li>اوتلت</li>
+              <li class="relative group cursor-pointer flex items-center gap-2">
+                <span>برند ها </span>
+             <div class="absolute top-8 right-0 bg-white shadow-2xl rounded-xl p-6 w-[650px] hidden group-hover:flex gap-10 z-50">
+                 <div class="flex flex-col gap-5 w-1/3">
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600"> 
+                         <img src="./src/picture/brand/jeanswest.png" class="w-32 h-12" />
+                      </div>
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600">
+                         <img src="./src/picture/brand/jootijeans.png" class="w-32 h-12" /> 
+                      </div> 
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600"> 
+                          <img src="./src/picture/brand/pierre cardin.png" class="w-32 h-12" /> 
+                      </div> 
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600">
+                           <img src="./src/picture/brand/koton.png" class="w-30 h-12" />
+                      </div>
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600">
+                         <img src="./src/picture/brand/lc waikiki.png" class="w-32 h-12" />
+                      </div> 
+                      <div class="flex items-center gap-3 cursor-pointer hover:text-green-600"> 
+                        <img src="./src/picture/brand/mashjad.png" class="w-36 h-12" /> 
+                      </div>
+               </div>
+               <div class="flex flex-col gap-3 w-2/3 text-sm p-7 ">
+                       <span class="cursor-pointer hover:text-green-600">جین وست</span> 
+                       <span class="cursor-pointer hover:text-green-600">جوتی جینز</span> 
+                       <span class="cursor-pointer hover:text-green-600">پیر کاردین</span>
+                       <span class="cursor-pointer hover:text-green-600">کوتون</span>
+                       <span class="cursor-pointer hover:text-green-600">ال سی وایکیکی</span> 
+                       <span class="cursor-pointer hover:text-green-600">چرم مشهد</span> 
+                       <span class="cursor-pointer hover:text-green-600">کروم</span>
+                       <span class="cursor-pointer hover:text-green-600">چرم کروکو</span>
+                       <span class="cursor-pointer hover:text-green-600">دلسی</span>
+              </div>
+             </div>
+              </li>
+              <li>خانه مد</li>
+              <li>کارت هدیه</li>
+              <li>بانی‌مگ</li>
+              <!-- آیتم اول با SVG و منوی بازشو -->
+              <li class="relative group cursor-pointer flex items-center gap-2">
+                <span>دسته‌بندی کالاها</span>
+                <!-- SVG + متن -->
+                <img
+                  src="./src/picture/svg/lines-svgrepo-com.svg" class="w-5 h-5"alt=""/>
+                <!-- منوی بازشو -->
+  <div class="absolute top-8 right-0 bg-white shadow-2xl rounded-xl p-5 w-80 hidden group-hover:block z-50">
+    <ul class="flex flex-col gap-4 text-sm">
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/shine-2-svgrepo-com.svg" class="w-5 h-5" alt="">
+        جدید ترین ها
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/clothes-full-shirt-svgrepo-com.svg" class="w-5 h-5" alt="">
+        مد و پوشاک
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/bicycle-3-svgrepo-com.svg" class="w-5 h-5" alt="">
+      ورزش و سفر
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/health-svgrepo-com.svg" class="w-5 h-5" alt="">
+      زیبایی و سلامت
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/new-life-household-appliances-set-svgrepo-com.svg" class="w-5 h-5" alt="">
+        لوازم خانگی
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/hanger-2-svgrepo-com.svg" class="w-5 h-5" alt="">
+       خانه و مد
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/baby-11-svgrepo-com.svg" class="w-5 h-5" alt="">
+کودک و سرگرمی
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/necklace-jewellery-heart-svgrepo-com.svg" class="w-5 h-5" alt="">
+ساعت و زیورالات 
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/book-svgrepo-com.svg" class="w-5 h-5" alt="">
+فرهنگ و هنر
+      </li>
+      <li class="flex items-center gap-2 hover:text-green-600 cursor-pointer">
+        <img src="./src/picture/svg/tv-alt-1-svgrepo-com.svg" class="w-5 h-5" alt="">
+کالا دیجیتال
+      </li>
+    </ul>
+  </div>
+</li>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+<!--               اولین اسویپرها             -->
+<div class="flex flex-row justify-center gap-8 m-14">
+  <!--izquierda swiper-->
+      <div class="overflow-hidden rounded-2xl w-104 h-96 hidden md:block ">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper ">
+         <div class="swiper-slide">
+          <img src="./src/picture/izquierda-swiper/21.webp" alt="">
+        </div>
+         <div class="swiper-slide">
+          <img src="./src/picture/izquierda-swiper/22.webp" alt="">
+        </div>
+    </div>
+    <div class="swiper-pagination">
+    </div>
+  </div>
+       </div>
+       <!--dereche swiper-->
+      <div class="overflow-hidden rounded-2xl w-211 h-96">
+<div class="swiper mySwiper ">
+    <div class="swiper-wrapper ">
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/11.webp" alt=""></div>
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/12.webp" alt=""></div>
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/13.webp" alt=""></div>
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/14.webp" alt=""></div>
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/15.webp" alt=""></div>
+         <div class="swiper-slide"><img src="./src/picture/dereche-swiper/16.webp" alt=""></div>
+      </div>
+    <div class="swiper-pagination"></div>
+  </div>
+       </div>
+</div>
+<!--لسیت فهرست-->
+    <div>
+  <div class="grid grid-cols-8 m-9 ">
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/08.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">لباس مردانه</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/07.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">لباس زنانه</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/06.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">محصولات بچه گانه</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/05.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">کیف و کفش</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/04.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">آرایشی بهداشتی</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/03.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">ورزش و سفر</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/02.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">لوازم خانه</p></a></div>
+    <div class=""><a href=""><div class="w-35 h-36 "><img src="./src/picture/photos/01.webp" alt="" class="rounded-sm"></div><p class="text-center text-black">ساعت</p></a></div>
+  </div>
+</div>
+<!--api-->
+  <div id="main-container" class="w-full p-4 flex flex-col items-center">
+    <div id="split-background-div" class="w-full max-w-screen-xl rounded-3xl relative" style="background: linear-gradient(to bottom, black 50%, white 50%);">  
+        <div class="py-4 px-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <button class="bg-[rgb(25,177,106)] text-white w-40 h-12 font-bold py-2 px-4 rounded-sm">
+                    مشاهده بیشتر
+                </button>
+                <!-- تایمر -->
+                <div class="bg-neutral-900 rounded-md p-2 mr-3 w-80 h-12 flex items-center text-white justify-between px-3">
+                    <span 
+                    id="timer"
+                    class="text-lg font-mono ">
+                    00:05:30
+                  </span> 
+                    <div class="w-px h-6 bg-white  "></div> 
+                    <p class="text-sm whitespace-nowrap ">تاپایان شگفت انگیز</p>
+                    <svg 
+                    class="w-5 h-5 mr-1 " 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24" 
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    stroke-width="2" 
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z">
+                  </path>
+                </svg>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <span class="font-bold text-lg text-white"> شگفت‌انگـــــیز‌ها</span>
+                <div class="w-10 h-10 bg-gray-300 rounded-full mr-2">
+                   <img 
+                   class="relative"  
+                   src="./src/picture/svg/shegeft.webp" alt="">
+                </div>
+            </div>
+        </div>
+<!--swiper-->
+       <div class="relative w-full max-w-7xl mx-auto p-4">
+         <div>
+          <button 
+          id="swiper-prev" 
+          class="swiper-button-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 hidden">
+    <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    class="h-6 w-6" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+      <path 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      stroke-width="2" 
+      d="M15 19l-7-7 7-7" 
+      />
+    </svg>
+  </button>
+         </div>
+         <div class="swiper mySwiper7 w-full h-64 rounded-xl overflow-hidden shadow-inner">
+    <div class="swiper-wrapper">  
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg "><div class="app-container w-full h-full"></div></div>
+      <div class="swiper-slide flex items-center justify-center h-90 rounded-lg bg-mist-900 ">
+        <div>
+          <p class="text-mist-500">مشاهده بیشتر</p>
+        </div>
+      </div>
+    </div>
+  </div>
+         <div>
+ <button 
+ id="swiper-next" 
+ class="swiper-button-next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white
+  text-gray-800 p-2 rounded-full shadow-lg transition-all duration-300 hidden">
+    <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    class="h-6 w-6" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+      <path 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      stroke-width="2" 
+      d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+         </div>
+        </div>
+<link 
+rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script 
+src="https://cdn.tailwindcss.com">
+</script>
+ </div>
+     </div>
+     <!--برند ها -->
+<div>
+  <div>
+     <div class="flex items-center justify-between w-full p-4">
+  <div class="flex items-center order-1">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="text-emerald-500 font-bold">
+      <p class="text-2xl">‹ مشاهده همه</p>
+    </a>
+  </div>
+  <div class="flex items-center order-2">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="flex items-center">
+      <p class="text-black font-bold text-2xl mr-2">برند های محبوب</p>
+      <img 
+      src="./src/picture/svg/85.webp" 
+      alt="" 
+      class="w-8 h-8">
+    </a>
+  </div>
+</div>
+  </div>
+  <div>
+    <div class="grid grid-cols-3 gap-4 p-4">
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden ">
+    <img 
+    src="./src/picture/brand/jeanswest.webp" 
+    alt="Image 1" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/koton.webp" 
+    alt="Image 2" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/pierre.webp" 
+    alt="Image 3" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/waikiki.webp" 
+    alt="Image 4" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/mashhad.webp" 
+    alt="Image 5" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/jootijeans.webp" 
+    alt="Image 6" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/casio.webp" 
+    alt="Image 7" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/dorsa.webp" 
+    alt="Image 8" 
+    class="w-full h-auto">
+  </div>
+  <div class="bg-white border-2 border-white rounded-lg overflow-hidden shadow-md">
+    <img 
+    src="./src/picture/brand/orez.webp" 
+    alt="Image 9"
+    class="w-full h-auto">
+  </div>
+    </div>
+      </div>
+</div>
+<!--اون قسمت قشنگش-->
+<div class="grid grid-cols-2 gap-30">
+  <!--ziba.left-->
+  <div class="p-8">
+    <div class="flex flex-col gap-6 py-6 max-lg:px-6">
+      <div>
+        <div class="flex items-center justify-between w-full p-4">
+  <div class="flex items-center order-1">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="text-emerald-500 font-medium">
+      <p class="text-2xl">‹ مشاهده همه</p>
+    </a>
+  </div>
+  <div class="flex items-center order-2">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="flex items-center">
+      <p class="text-black  font-bold text-2xl mr-2">محبوب ترین های چرم مشهد</p>
+      <img 
+      src="./src/picture/brand/mash2.webp" alt="" 
+      class="w-8 h-8">
+    </a>
+  </div>
+</div>
+      </div>
+      <!--عکسا-->
+      <div class="flex items-stretch gap-6 lg:gap-6 ">
+        <div class=" grid grid-cols-2 gap-4 w-1/2">
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.left/1.webp" 
+             alt="img-11" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold ">کفش زنانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img src="./src/picture/ziba.left/2.webp" 
+             alt="img-12" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">کفش مردانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.left/4.webp" 
+             alt="img-13" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">کیف زنانه</h3>
+        </a>
+          <a 
+          class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.left/3.webp" 
+             alt="img-14" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">کیف مردانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.left/6.webp" 
+             alt="img-15" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">اکسسوری زنانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.left/5.webp" 
+             alt="img-16" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">اکسسوری مردانه</h3>
+        </a>
+        </div>
+        <!--قسمت بالاش-->
+        <div class="gif-box w-1/2">
+ <a href="https://www.banimode.com/">
+          <img src="./src/picture/ziba.left/1774707381.gif" class="rounded-lg w-75 h-fit object-cover mb-2" alt="">
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--ziba.right-->
+  <div>
+    <div class="p-8 ">
+    <div class="flex flex-col gap-6 py-6 max-lg:px-6">
+      <div>
+        <div class="flex items-center justify-between w-full p-4">
+  <div class="flex items-center order-1">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="text-emerald-500 font-medium">
+      <p class="text-2xl">‹ مشاهده همه</p>
+    </a>
+  </div>
+  <div class="flex items-center order-2">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="flex items-center">
+      <p class="text-black  font-bold text-2xl mr-2">محبوب ترین های ال سی وایکیکی</p>
+      <img 
+      src="./src/picture/brand/LC.webp" alt="" 
+      class="w-8 h-8">
+    </a>
+  </div>
+</div>
+      </div>
+      <!--عکسا-->
+      <div class="flex items-stretch lg:gap-6  ">
+        <div class=" grid grid-cols-2 gap-4 w-1/2">
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/22.webp" 
+             alt="img-11" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold ">لباس زنانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/21.webp" 
+             alt="img-12" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">لباس مردانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/24.webp" 
+             alt="img-13" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">لباس دخترانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/23.webp" 
+             alt="img-14" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">لباس پسرانه</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/26webp.webp" 
+             alt="img-15" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">لباس نوزادی</h3>
+        </a>
+          <a class="flex flex-col gap-1 lg:gap-2 item-box" href="">
+            <div>
+             <img 
+             src="./src/picture/ziba.right/25.webp" 
+             alt="img-16" 
+             class="border-1 border-b-gray-700 rounded-lg w-full object-cover mb-2">
+          </div>
+          <h3 class="flex justify-center text-mauve-950 font-bold">لباس نوجوان</h3>
+        </a>
+        </div>
+        <!--قسمت بالاش-->
+        <div class="gif-box w-1/2">
+ <a href="https://www.banimode.com/">
+          <img 
+          src="./src/picture/ziba.right/1775254726.gif" 
+          class="rounded-lg w-75 h-fit object-cover mb-2" alt="">
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!--بانی مگ-->
+<div>
+<div class="flex items-center justify-between w-full p-4">
+  <div class="flex items-center order-1">
+    <a href="https://www.banimode.com/manufacturers" 
+    class="text-emerald-500 font-medium">
+      <p class="text-2xl">‹ برو به بانی مگ</p>
+    </a>
+  </div>
+  <div class="flex items-center order-2">
+    <a 
+    href="https://www.banimode.com/manufacturers" 
+    class="flex items-center">
+      <p class="text-black font-bold text-2xl mr-2">جدید ترین بانی مگ</p>
+      <img 
+      src="./src/picture/svg/pishnahad.png" alt="" 
+      class="w-8 h-8">
+    </a>
+  </div>
+</div>
+<div class="relative w-full p-4 bg-white">
+  <div>
+    <!--دکمه کوچک-->
+    <button
+    id="custom-swiper-prev-5"
+    class="absolute left-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-10 h-10 bg-gray-300 rounded-full shadow-lg  focus:outline-none focus:ring-2  focus:ring-opacity-50"
+    aria-label="Previous slide"
+  >
+    <svg
+      class="w-6 h-6 text-gray-700"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 19l-7-7 7-7"
+      ></path>
+    </svg>
+  </button>
+  </div>
+  <div class="w-full p-4">
+          <div class="swiper mySwiper_5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div >
+                  <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/sweaters.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3 bg-white">
+    <div class="font-bold text-xl mb-2 text-gray-300"></div>
+    <p class="text-gray-950 text-base">
+   کاردیگان چیست ؟/ استایل با کاردیگان
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-400 m-3"></div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div  >
+                   <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 h-68 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-20 object-cover rounded-lg"
+      src="./src/picture/mag/kids.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 ">
+    <div class="font-bold h-10 text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     استایل جین کودکان ، ترندی همیشگی برای همه 
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div >
+                   <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/oil.gif"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     ده روغن شگفت انگیز برای افزایش رشد مو
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div >
+                  <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 h-66 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/faice.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+    فشیال پوست صورت: راهنمایه مراقبت از پوسستان با هزینه مناست
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div >
+                  <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/clock.gif"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     بهترین برند های ساعت مچی کدامند؟
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div >
+                  <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/man.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     تفاوت هودی و سویشرت چیست؟
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                   <div class="max-w-sm rounded-xl overflow-hidden h-64 shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/hair.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     معرفی بهترین براق کننده مو برای هر نیازی
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>           
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div >
+                  <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/reach.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+     راز پوست شفاف و بی نقص
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>     
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                   <div class="max-w-sm rounded-xl overflow-hidden shadow-lg m-4 bg-white">
+  <!-- بخش عکس -->
+  <div class="relative p-4">
+    <img
+      class="w-full h-48 object-cover rounded-lg"
+      src="./src/picture/mag/boy.webp"
+      alt="Card Image"
+    />
+    <!-- بخش محتوا (متن زیر عکس) -->
+  <div class="px-3 py-3">
+    <div class="font-bold text-xl mb-2 text-gray-800"></div>
+    <p class="text-gray-600 text-base">
+  استایل دورس با کت چرمی یا جین
+    </p>
+  </div>
+    <!-- کادر دور عکس -->
+    <div class="absolute inset-0 rounded-lg border-2 border-b-gray-950 m-3"></div>
+  </div>
+</div>     
+                </div>
+              </div>
+            </div>
+          </div>
+ </div>
+ <div>
+  <button
+    id="custom-swiper-next-5"
+    class="absolute right-0 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-10 h-10 bg-gray-300 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-opacity-50"
+    aria-label="Next slide"
+  >
+    <svg
+      class="w-6 h-6 text-gray-700"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M9 5l7 7-7 7"
+      ></path>
+    </svg>
+  </button>
+ </div>
+</div>
+</div>
+ <!--فوترشه-->
+<footer class="border-t border-gray-300 pt-8 pb-8">
+  <div class="grid grid-cols-5">
+    <div class="mr-0.5 flex justify-end basis-0.5">
+      <div>
+        <a href="">
+          <img src="./src/picture/favicon/Screenshot 2026-04-27 170121.png" alt="">
+        </a>
+        <a href="">
+          <img src="./src/picture/favicon/bazar.png" class="rounded-md" alt="">
+        </a>
+        <a href="">
+          <img src="./src/picture/favicon/sib (1).png" alt="">
+        </a>
+        <a href="">
+          <img src="./src/picture/favicon/app.png" alt="">
+        </a>
+        <ul>
+          <img src="./src/picture/favicon/social.png" alt="">
+        </ul>
+      </div>
+    </div>
+  <div class="text-right"><ul>
+    <li>
+      <span class="text-gray-800 font-light text-[20px]">
+        منتظر شنیدن صدای گرمتیم</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        <p>تلفن:</p>021-49215</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        <p>پیامک:</p>10001654</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        <p>ایمیل:</p>customer@banimode.com</span>
+      </li>
+  </ul>
+</div>
+  <div class="text-right"><ul>
+    <li>
+      <span class="text-gray-800 font-light text-[20px]">
+        اطلاعات بانی مد</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        درباره ما</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        قوانین و مقررات</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        تماس با ما</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        فرصت های شغلی</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        همکاری تجاری</span>
+      </li>
+  </ul>
+</div>
+  <div class="text-right"><ul>
+    <li>
+      <span class="text-gray-800 font-light text-[20px]">
+        خدمات مشتریان</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+         سوالات متداول</span>
+        </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        شرایط بازگشت</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        راهنمای خرید</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خریدB2B</span>
+      </li>
+  </ul>
+</div>
+  <div class="text-right px-5">
+    <ul>
+    <li>
+      <span class="text-gray-800 font-light text-[20px]">
+        خرید از بانی مد </span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید لباس زنانه</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید لباس مردانه</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید کیف زنانه</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید کیف مردانه</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید کفش زنانه</span>
+      </li>
+    <li>
+      <span class="text-gray-700 font-light text-[15px]">
+        خرید کفش مردانه</span>
+      </li>
+  </ul>
+</div>
+  </div>
+  <footer class="border-t border-gray-300 pt-8 pb-8"></footer>
+  <div class=" text-right container mx-auto px-4  text-gray-600">
+    <p class="font-bold text-neutral-950 flex justify-end">مرکز خرید آنلاین بانی مد </p>
+    <p class="line-clamp-4">به مرکز خرید آنلاین بانی‌مد خوش آمدید؛ مقصد کامل خرید اینترنتی در مد و پوشاک و همراه همیشگی لایف استایل شما. اینجا خرید آنلاین لباس، کیف و کفش، اکسسوری و حتی محصولات بهداشتی به تجربه‌ای سریع، لذت‌بخش و مطمئن تبدیل می‌شود. اگر دنبال تنوع واقعی و محتوای راهنمای کاربردی هستید، همین‌جا هر روز می‌توانید استایل و سبک و زندگی خودتان را تازه‌تر کنید. مرکز خرید آنلاین بانی‌مد از پوشاک زنانه و مردانه تا آیتم‌های بچگانه و نوجوان، از کالکشن‌های چهار فصل تا آیتم‌های ترند و پرفروش را یک‌جا گرد آورده تا انتخاب برای شما ساده و نتیجه دقیقاً مطابق سلیقه و نیازتان باشد.
+</p>
+  </div>
+  <div class="flex justify-center align-middle py-15">
+    <img 
+    src="./src/picture/favicon/Screenshot 2026-04-29 131146.png" alt="">
+  </div>
+  <p class=" text-right  text-gray-500">
+    کلیه حقوق این وبسایت وابسته به بانی مد است .
+  </p>
+</footer>
+<!-- دکمه تماس شناور -->
+<a href="sms:09123456789" 
+class="fixed bottom-6 right-6 z-50 group">
+    <div 
+    class="relative flex items-center justify-center w-14 h-14 bg-green-400
+      rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110 cursor-pointer animate-bounce-custom"
+      >
+        <!-- آیکون پیامک (SVG) -->
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        class="h-7 w-7 text-white" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        stroke="currentColor" 
+        stroke-width="2">
+            <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+             />
+        </svg>       
+    </div>
+</a>
+<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
